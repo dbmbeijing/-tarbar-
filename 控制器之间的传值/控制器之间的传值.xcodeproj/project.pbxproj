@@ -15,6 +15,8 @@
 		CE5A94EB1BEF5B61005B9717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5A94E91BEF5B61005B9717 /* LaunchScreen.storyboard */; };
 		CE5A94F61BEF5B61005B9717 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A94F51BEF5B61005B9717 /* ________Tests.m */; };
 		CE5A95011BEF5B61005B9717 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A95001BEF5B61005B9717 /* ________UITests.m */; };
+		CE5A95101BEF5BFE005B9717 /* FristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A950F1BEF5BFE005B9717 /* FristViewController.m */; };
+		CE5A95131BEF5C0C005B9717 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A95121BEF5C0C005B9717 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CE5A94FC1BEF5B61005B9717 /* 控制器之间的传值UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "控制器之间的传值UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A95001BEF5B61005B9717 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		CE5A95021BEF5B61005B9717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5A950E1BEF5BFE005B9717 /* FristViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristViewController.h; sourceTree = "<group>"; };
+		CE5A950F1BEF5BFE005B9717 /* FristViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristViewController.m; sourceTree = "<group>"; };
+		CE5A95111BEF5C0C005B9717 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE5A95121BEF5C0C005B9717 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		CE5A94DA1BEF5B61005B9717 /* 控制器之间的传值 */ = {
 			isa = PBXGroup;
 			children = (
+				CE5A950E1BEF5BFE005B9717 /* FristViewController.h */,
+				CE5A950F1BEF5BFE005B9717 /* FristViewController.m */,
+				CE5A95111BEF5C0C005B9717 /* SecondViewController.h */,
+				CE5A95121BEF5C0C005B9717 /* SecondViewController.m */,
 				CE5A94DE1BEF5B61005B9717 /* AppDelegate.h */,
 				CE5A94DF1BEF5B61005B9717 /* AppDelegate.m */,
 				CE5A94E11BEF5B61005B9717 /* ViewController.h */,
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5A95131BEF5C0C005B9717 /* SecondViewController.m in Sources */,
 				CE5A94E31BEF5B61005B9717 /* ViewController.m in Sources */,
 				CE5A94E01BEF5B61005B9717 /* AppDelegate.m in Sources */,
 				CE5A94DD1BEF5B61005B9717 /* main.m in Sources */,
+				CE5A95101BEF5BFE005B9717 /* FristViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

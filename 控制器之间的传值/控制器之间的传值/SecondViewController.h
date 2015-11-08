@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  控制器之间的传值
 //
 //  Created by User on 15/11/8.
@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITabBarController  
+@interface SecondViewController : UIViewController
+
+
+@property (nonatomic, copy) NSString *string;
+
+
+
 
 
 @end
-
