@@ -26,8 +26,32 @@
 -(void)viewWillAppear:(BOOL)animated
 {
   
+    [super viewWillAppear:animated];
+    
+    if (self.secondLable.text != 0) {
+        
+        
+        NSLog(@"我已经有了");
+        
+       
+        
+    }else{
+        
+         NSLog(@"=========%@",self.secondLable.text);
+        
+    }
+
     self.secondLable.text = self.string;
 
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated ];
+    
+    self.secondLable.text = @"";
+    
+    NSLog(@"我是控制器要销毁的过程中%@",self.secondLable.text);
 
 }
 
